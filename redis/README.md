@@ -10,6 +10,10 @@ $ redis-cli -c -h xxx-redis.xxx.cache.amazonaws.com -p 6379
 ```
 > keys *CREATE_GROUP_LOCK*      #查询匹配的key
 ```
+查看key的value：
+```
+> get key值
+```
 通配符删除key：
 ```
 $ redis-cli -c -h 主机 -p 6379 -n 0 keys "Api-Gateway:sbod:sbodCache*" | xargs redis-cli -h redis地址 -p 6379 -n 0 del
