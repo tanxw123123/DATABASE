@@ -1,3 +1,7 @@
+redis客户端安装：ubuntu
+```
+$ sudo apt install redis-tools
+```
 登陆redis：
 ```
 $ redis-cli -c -h xxx-redis.xxx.cache.amazonaws.com -p 6379
