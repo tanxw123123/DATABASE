@@ -6,6 +6,12 @@ $ sudo apt install redis-tools
 ```
 $ redis-cli -c -h xxx-redis.xxx.cache.amazonaws.com -p 6379
 ```
+查看redis版本&客户端连接数
+```
+# redis-cli info | grep 'redis_version'        # 查看版本和客户端连接数
+# redis-cli info | grep 'connected_clients'    # 查看客户端连接数
+> info       # 进入redis查看也行
+```
 进入0库：
 ```
 > select 0
