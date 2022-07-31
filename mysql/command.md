@@ -14,6 +14,7 @@
 > show variables like  '%timeout%';
 ```
 SQL语言共分为四大类：数据定义语言DDL，数据操纵语言DML，数据查询语言DQL，数据控制语言DCL。  
+```
 DDL: 数据定义语言  
 对象：数据库和表  
 关键词： create alter drop truncate  
@@ -34,3 +35,4 @@ DCL: 数据控制语言
 数据控制语言DCL用来授予或回收访问数据库的某种特权，并控制数据库操纵事务发生的时间及效果，对数据库实行监视等  
 1) GRANT：授权。  
 2) ROLLBACK [WORK] TO [SAVEPOINT]：回退到某一点。  
+```
